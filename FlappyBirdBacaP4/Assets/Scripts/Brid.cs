@@ -36,5 +36,6 @@ public class Brid : MonoBehaviour
     {
         isDead = true;
         anim.SetTrigger ("Die");
+        GameControl.instance.BridDied ();
     }
 }
